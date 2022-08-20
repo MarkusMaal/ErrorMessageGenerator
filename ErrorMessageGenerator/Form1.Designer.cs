@@ -638,6 +638,7 @@
             this.Controls.Add(this.errorsList);
             this.MinimumSize = new System.Drawing.Size(816, 543);
             this.Name = "Form1";
+            this.ShowIcon = false;
             this.Text = "Generate an error message";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.messageIconPanel.ResumeLayout(false);
